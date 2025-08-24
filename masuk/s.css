@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #4070f4;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.container h2{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container p{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.pengisian input{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.check{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    accent-color: #4070f4;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4070f4;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover{
+    background: #396dfc98;
+}
+
+.daftar{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.login-lain{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.login-lain p{
+    margin-bottom: 10px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+    padding: 10px;
+    
+}
+
+.icon a{
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    color: #333;
+}
+
+.google{
+    background: white;
+    padding: 10px;
+    border: #cacaca solid 1px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.facebook{
+    background: white;
+    padding: 10px;
+    border: #cacaca solid 1px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.instagram{
+    background: white;
+    padding: 10px;
+    border: #cacaca solid 1px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.github{
+    background: white;
+    padding: 10px;
+    border: #cacaca solid 1px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.github:hover,.instagram:hover,.facebook:hover,.google:hover{
+    background: #5d88ff;
+    color: white;
+}
+
+.google:hover a,.facebook:hover a,.instagram:hover a,.github:hover a{
+    color: white;
+}
+
+
+
