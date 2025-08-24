@@ -151,5 +151,11 @@ button:hover{
     color: white;
 }
 
+.daftar a{
+    color: #4070f4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 
 
