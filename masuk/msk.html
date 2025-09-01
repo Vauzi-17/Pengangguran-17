@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 </head>
 <link rel="stylesheet" href="s.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 <body>
     <div class="container">
         <div class="box">
@@ -14,8 +16,8 @@
             <p>Kita perlu mengetahui email kamu</p>
             <form action="proses_masuk.php" method="post">
                 <div class="pengisian">
-                    <input type="text" name="username" placeholder="Username" required>
-                <input type="password" name="password" placeholder="Password" required>
+                    <input type="text" name="username" id="nama" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
                 </div>
                 <div class="check">
                     <input type="checkbox" name="setuju" id="setuju">
@@ -25,24 +27,38 @@
                     <p>Atau masuk dengan</p>
                     <div class="icon">
                         <div class="google">
-                             <a href="#"><i class="fa-brands fa-google"></i></a>
+                            <a href="#"><i class="fa-brands fa-google"></i></a>
                         </div>
                         <div class="facebook">
                             <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         </div>
                         <div class="instagram">
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>                            
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                         <div class="github">
                             <a href="#"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
-                <button type="submit">Masuk</button>
-                <div class="daftar">
-                    <p>Belum punya akun? <a href="../daftar/dft.html">Daftar</a></p>
-                </div>
+                    <button type="submit" class="batu">Masuk</button>
+                    <div class="daftar">
+                        <p>Belum punya akun? <a href="../daftar/dft.html">Daftar</a></p>
+                    </div>
             </form>
         </div>
     </div>
+    <script>
+        const nama = document.getElementById('nama');
+        const btn = document.querySelector('.batu');
+
+        btn.addEventListener('click', function () {
+            if (nama.value.trim() === '') {
+                alert('Isi dulu'); 
+            } else {
+                console.log('Nama sudah diisi:', nama.value);
+            }
+        });
+
+    </script>
 </body>
+
 </html>

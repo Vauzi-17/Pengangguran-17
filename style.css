@@ -120,7 +120,7 @@ button {
 }
 
 .keuntungan h2 {
-  text-align: center;
+ /* text-align: center;*/
   color: white;
   font-size: 1.8em;
   margin-bottom: 20px;
@@ -165,7 +165,8 @@ ide-usaha {
 }
 
 .ide-usaha h2 {
-    text-align: center;
+    padding: 0 60px;
+    /*text-align: center;*/
     color: white;
     font-size: 1.8em;
     margin-bottom: 20px;

@@ -1,4 +1,4 @@
-*{
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,37 +10,37 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #4070f4;
+    background: #172112;
 }
 
 .container{
     position: relative;
     width: 400px;
     padding: 40px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(23,33,18,0.3);
 }
 
 .container h2{
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: #172112;
 }
 
 .container p{
     font-size: 1em;
     text-align: center;
     margin-bottom: 30px;
-    color: #666;
+    color: #444;
 }
 
 .pengisian input{
     width: 100%;
     padding: 10px 15px;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 1px solid #aaa;
     border-radius: 5px;
     font-size: 1em;
 }
@@ -51,12 +51,13 @@ body{
     align-items: center;
     margin-bottom: 20px;
     gap: 10px;
+    color: #172112;
 }
 
 input[type="checkbox"]{
     width: 20px;
     height: 20px;
-    accent-color: #4070f4;
+    accent-color: #172112;
 }
 
 button{
@@ -64,7 +65,7 @@ button{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background: #4070f4;
+    background: #172112;
     color: #fff;
     font-size: 1em;
     cursor: pointer;
@@ -72,21 +73,21 @@ button{
 }
 
 button:hover{
-    background: #396dfc98;
+    background: #1f2b17;
 }
 
 .daftar{
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
-    color: #666;
+    color: #444;
 }
 
 .login-lain{
     text-align: center;
     margin: 20px 0;
     font-size: 0.9em;
-    color: #666;
+    color: #444;
 }
 
 .login-lain p{
@@ -99,7 +100,6 @@ button:hover{
     align-items: center;
     gap : 20px;
     padding: 10px;
-    
 }
 
 .icon a{
@@ -107,34 +107,10 @@ button:hover{
     font-size: 1.5em;
     margin: 0 10px;
     transition: color 0.3s ease;
-    color: #333;
+    color: #172112;
 }
 
-.google{
-    background: white;
-    padding: 10px;
-    border: #cacaca solid 1px;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.facebook{
-    background: white;
-    padding: 10px;
-    border: #cacaca solid 1px;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.instagram{
-    background: white;
-    padding: 10px;
-    border: #cacaca solid 1px;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.github{
+.google,.facebook,.instagram,.github{
     background: white;
     padding: 10px;
     border: #cacaca solid 1px;
@@ -143,7 +119,7 @@ button:hover{
 }
 
 .github:hover,.instagram:hover,.facebook:hover,.google:hover{
-    background: #5d88ff;
+    background: #172112;
     color: white;
 }
 
@@ -152,10 +128,7 @@ button:hover{
 }
 
 .daftar a{
-    color: #4070f4;
+    color: #172112;
     text-decoration: none;
     font-weight: 500;
 }
-
-
-
